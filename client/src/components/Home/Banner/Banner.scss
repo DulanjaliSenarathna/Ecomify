@@ -27,7 +27,7 @@
             width: 200px;
             margin-bottom: 20px;
             @include md {
-                width: 500px;
+                width: 400px;
                 margin-right: 60px;
                 margin-top: 50px;
                 margin-bottom: 0;
@@ -59,7 +59,7 @@
                 line-height: 1;
                 margin-bottom: 20px;
                 @include md{
-                    font-size: 180px;
+                    font-size: 110px;
                 }
             }
             p{
