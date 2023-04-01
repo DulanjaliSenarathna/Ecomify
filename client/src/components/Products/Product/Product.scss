@@ -11,10 +11,10 @@
         height: 180px;
         background-color: rgba(0,0,0,0.05);
         margin-bottom: 10px;
-        padding: 25px;
+        padding: 20px;
         display: flex;
         align-items: center;
-        //border-radius: 5px;
+        border-radius: 5px;
         @include md {
             height: 350px;
         }

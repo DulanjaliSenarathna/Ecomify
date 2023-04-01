@@ -1,18 +1,14 @@
 import "./Products.scss";
 import Product from "./Product/Product";
 
-const Products = ({innerPage, headingText}) => {
+const Products = ({ products ,innerPage, headingText}) => {
     return <div className="products-container">
         {!innerPage && <div className="section-heading">{headingText}</div>}
         <div className="products">
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
+            {products?.data?.map(item =>(
+                <Product key={item.id} id={item.id} data={item.attributes}/>
+            ))}
+            
         </div>
     </div>;
 };
