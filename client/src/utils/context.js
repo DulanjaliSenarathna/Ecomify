@@ -12,6 +12,10 @@ const AppContext = ({children}) =>{
     const [cartSubTotal, setCartSubTotal] = useState(0);
     const location = useLocation();
 
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[location])
+
     //update the sub total
     useEffect(()=>{
 
