@@ -12,6 +12,7 @@ const AppContext = ({children}) =>{
     const [cartSubTotal, setCartSubTotal] = useState(0);
     const location = useLocation();
 
+    //scroll the page to top when click related item
     useEffect(()=>{
         window.scrollTo(0,0)
     },[location])
