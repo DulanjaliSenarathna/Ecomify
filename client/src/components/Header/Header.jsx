@@ -1,5 +1,5 @@
 import { useEffect, useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import {TbSearch} from "react-icons/tb";
 import {CgShoppingCart} from "react-icons/cg";
