@@ -14,7 +14,9 @@ Open http://localhost:3000 to view it in your browser.
 In the project directory, inside the api folder, you should install node modules. for this, run:
 
 npm install
+
 npm run develop
+
 To run backend cms.
 
 ![Emomify1](https://user-images.githubusercontent.com/59603716/229886892-f0c526a1-f6ce-40b6-b19c-6a3b81d412c3.PNG)
