@@ -1,14 +1,19 @@
 # Ecomify
 E commerce web application using React Js, Strapi, Stripe
 
-In the project directory, inside the client folder, you can run:
+In the project directory, inside the client folder, you should install node modules. for this,  run:
+
+npm install
+
+Then run,
 
 npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
-In the project directory, inside the api folder, you should run:
+In the project directory, inside the api folder, you should install node modules. for this, run:
 
+npm install
 npm run develop
 To run backend cms.
 
