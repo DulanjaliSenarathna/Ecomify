@@ -1,7 +1,7 @@
 # Ecomify
 A complete React js e-commerce application.
 
-**live demo: [ecomify-iota.vercel.app/](ecomify-iota.vercel.app/)**
+**live demo: [ecomify-iota.vercel.app/](https://ecomify-iota.vercel.app/)**
 
 ---
 
